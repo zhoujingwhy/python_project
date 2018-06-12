@@ -27,4 +27,4 @@ re,matplotlib等<br>
 ### 运行getinfo.py即可<br>
 >1.性别是存放在一个字典里面的，key是”Sex“，男性值为1，女性为2，其他是不明性别的为0。<br>
 >可以写个循环获取想要的性别数据，得到自己微信好友的性别比例。<br>
-![](https://github.com/zhoujingwhy/python_project/blob/master/%E8%AF%B4%E6%98%8E/QQ%E6%88%AA%E5%9B%BE20180612171017.png)
+![](https://github.com/zhoujingwhy/python_project/说明/QQ截图20180612171017.png)
