@@ -41,4 +41,7 @@ re,matplotlib,PIL等<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612123421.png)<br><br>
 ### 微信好友的个人签名词云图<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/Figure_1.png)<br><br>
-### 生成一个dtat.csv，在爬取微信好友简单信息文件夹中。如下图
+### 生成一个dtat.csv，在爬取微信好友简单信息文件夹中。如下图<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612184533.png)<br><br>
+## 总结<br>
+>如果微信好友有几千个，可以得到几千条数据，还是挺有意思的。
