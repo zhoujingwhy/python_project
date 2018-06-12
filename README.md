@@ -13,17 +13,32 @@
 >  分析一下朋友个性签名时使用的高频词语是什么，做出词云图<br><br>
 ## 配置过程<br>
 --------------------------
-本项目是基于python3.6+window10环境的。<br>
+### 本项目是基于python3.6+window10环境的。<br>
 >模块:<br>
 >itchat：提供了一个微信api接口<br>
 >pandas:提供了一个value_counts()方法，可以更方便统计各项出现的次数<br>
 >jieba :分词分析语料库<br>
 >numpy:提供了矩阵运算的功能<br>
 >wordcloud:生成的词云图<br>
-re,matplotlib等<br>
+re,matplotlib,PIL等<br>
 使用pip 安装完成后导入包，环境配置完成。<br>
-## 运行<br>
+## 运行过程<br>
 ----------------------------
->运行getinfo.py即可<br>
->1.性别是存放在一个字典里面的，key是”Sex“，男性值为1，女性为2，其他是不明性别的为0。<br>
->可以写个循环获取想要的性别数据，得到自己微信好友的性别比例。<br>
+### 运行getinfo.py即可<br>
+### 1.性别是存放在一个字典里面的，key是”Sex“，男性值为1，女性为2，其他是不明性别的为0。可以写个循环获取想要的性别数据，得到自己微信好友的性别比例。<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171017.png)<br><br>
+### 2.定义一个函数把好友昵称、省份、城市、个人简介等等的数据都爬下来，存到数据框里，再进行分析好友城市分布。<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171200.png)<br><br>
+### 3.把原先爬下来的个性签名打印出来，发现有很多本来是表情的，变成了emoji、span、class等等这些无关紧要的词，需要先替换掉，另外，还有类似<>/= 之类的符号，也需要写个简单的正则替换掉，再把所有拼起来，得到text字串。<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171245.png)<br><br>
+### 4.把jieba这个包搞进来分词<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171320.png)<br><br>
+### 5.进入画图阶段。可以根据自己想要的图片、形状、颜色画出相似的图形。
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171416.png)<br><br>
+## 运行结果<br>
+-------------------------------------------------------------
+### 显示微信好友的性别比例<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612123421.png)<br><br>
+### 微信好友的个人签名词云图<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/Figure_1.png)<br><br>
+### 生成一个dtat.csv，在爬取微信好友简单信息文件夹中。如下图
