@@ -11,7 +11,7 @@
 >  里面还包含了好友昵称、省份、城市、个人简介等<br>
 >（3）微信好友个性签名的自定义词云图<br>
 >  分析一下朋友个性签名时使用的高频词语是什么，做出词云图<br>
-> (4) 头像下载和拼接<br><br>
+>（4）头像下载和拼接<br><br>
 ## 配置过程<br>
 --------------------------
 ### 本项目是基于python3.6+window10环境的。<br>
@@ -37,10 +37,10 @@ re,matplotlib,PIL,os,math等<br>
 ### 5.进入画图阶段。可以根据自己想要的图片、形状、颜色画出相似的图形。
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171416.png)<br><br>
 ### 再运行head.py<br>
-### 6.首先我们需要把好友的头像下载下来，然后进行拼接<br>
-     把好友的头像下载下来,放入一个文件夹中<br>
+###  6.首先我们需要把好友的头像下载下来，然后进行拼接<br>
+>把好友的头像下载下来,放入一个文件夹中<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180620211248.png)<br><br>
-     然后把好友的头像进行拼接，生成一个拼图。<br>
+>然后把好友的头像进行拼接，生成一个拼图。<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180620211318.png)<br><br>
      
 ## 运行结果<br>
@@ -51,5 +51,7 @@ re,matplotlib,PIL,os,math等<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/Figure_1.png)<br><br>
 ### 生成一个dtat.csv，在爬取微信好友简单信息文件夹中。如下图<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612184533.png)<br><br>
+### 下载好友头像和名称，这个涉及隐私，不放结果了。好友头像拼接结果，如下图<br>
+>![AAA](https://github.com/zhoujingwhy/python_project/raw/master/爬取微信好友简单信息/拼接完成的图片/tp.jpg)<br><br>
 ## 总结<br>
 ### 如果微信好友有几千个，可以得到几千条数据，还是挺有意思的。
