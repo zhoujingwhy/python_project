@@ -10,7 +10,8 @@
 >（2）得到微信好友的城市分布，数据存到csv文件<br>
 >  里面还包含了好友昵称、省份、城市、个人简介等<br>
 >（3）微信好友个性签名的自定义词云图<br>
->  分析一下朋友个性签名时使用的高频词语是什么，做出词云图<br><br>
+>  分析一下朋友个性签名时使用的高频词语是什么，做出词云图<br>
+> (4)头像下载和拼接<br><br>
 ## 配置过程<br>
 --------------------------
 ### 本项目是基于python3.6+window10环境的。<br>
@@ -20,11 +21,11 @@
 >jieba :分词分析语料库<br>
 >numpy:提供了矩阵运算的功能<br>
 >wordcloud:生成的词云图<br>
-re,matplotlib,PIL等<br>
+re,matplotlib,PIL,os,math等<br>
 使用pip 安装完成后导入包，环境配置完成。<br>
 ## 运行过程<br>
 ----------------------------
-### 运行getinfo.py即可<br>
+### 首先运行getinfo.py<br>
 ### 1.性别是存放在一个字典里面的，key是”Sex“，男性值为1，女性为2，其他是不明性别的为0。可以写个循环获取想要的性别数据，得到自己微信好友的性别比例。<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171017.png)<br><br>
 ### 2.定义一个函数把好友昵称、省份、城市、个人简介等等的数据都爬下来，存到数据框里，再进行分析好友城市分布。<br>
@@ -35,6 +36,8 @@ re,matplotlib,PIL等<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171320.png)<br><br>
 ### 5.进入画图阶段。可以根据自己想要的图片、形状、颜色画出相似的图形。
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612171416.png)<br><br>
+### 再运行head.py<br>
+### 6.首先我们需要把好友的头像下载下来，然后进行拼接
 ## 运行结果<br>
 -------------------------------------------------------------
 ### 显示微信好友的性别比例<br>
