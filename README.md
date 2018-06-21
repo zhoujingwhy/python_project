@@ -51,7 +51,7 @@ re,matplotlib,PIL,os,math等<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/Figure_1.png)<br><br>
 ### 生成一个dtat.csv，在爬取微信好友简单信息文件夹中。如下图<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/说明/QQ截图20180612184533.png)<br><br>
-### 下载好友头像和名称，这个涉及隐私，不放结果了。<br>
+### 下载好友头像和名称，这个涉及隐私，不放结果了，可以自己运行看看。<br>
 ### 好友头像拼接结果，如下图<br>
 >![AAA](https://github.com/zhoujingwhy/python_project/raw/master/爬取微信好友简单信息/拼接完成的图片/tp.jpg)<br><br>
 ## 总结<br>
